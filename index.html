@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="nav-bar">
+        <div class="Home">
+            <nav>
+                <img src="Images/Logo/Asset 1.png" alt="" class="logo">
+                <ul>
+                    <li><a href="#Hero">Home</a></li>
+                    <li><a href="#Aboutus">Aboutus</a></li>
+                    <li><a href="#Services">Services</a></li>
+                </ul>
+                <button><a href="#Form">Get Quote</a></button>
+                
+            </nav>
+            <div class="tab">
+                <img src="Images/bx-menu.svg" alt="">
+                <img src="Images/x-regular-24.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- hero -->
+    <section class="hero" id="Hero">
+        <div class="hero1">
+            <h1>Enjoy Hustle Free <br> Logistics</h1>
+            <p>We Believe in Logistics that work for everyone</p>
+            <button class="btn">Get Quote</button>
+        </div>
+    </section>
+
+    <section class="Aboutus" id="Aboutus">
+        <div class="content">
+            <div class="left">
+                <p>Experience Trusted  Communication Services</p>
+                <h2>Nations Best Secure Safe<br>and Trusted Logistic<br>Service Provider</h2>
+            </div>
+            <div class="right">
+                <h2>Our commitment to safety and security is unmatched,<br> and our customers trust us as the premier <br>logistics provider for secure and reliable <br>transportation services nationwide</h2>
+            </div>
+        </div>
+        <div class="services">
+            <div class="cards">
+                <div class="card1">
+                    <img src="Images/truck-solid-48.png" alt="">
+                    <h3>Customized Logistics Solutions</h3>
+                    <p>We offer a wide range of customizable logistics solutions tailored to your specific needs and preferences.</p>
+                </div>
+                <div class="card2">
+                    <img src="Images/globe-regular-48.png" alt="">
+                    <h3>Efficient Transportation</h3>
+                    <p>With our efficient transportation solutions, we help you reduce your transportation costs and improve your logistics efficiency.</p>
+                </div>  
+                
+            </div>
+            <div class="image">
+                <img src="Images/Forklift.png" alt="">
+            </div> 
+            
+        </div>
+        
+    </section>
+
+    <section class="About">
+        <div class="container">
+            <img src="Images/contract.svg" alt="">
+        </div>
+        <div class="container2">
+            <h3>About Our Company</h3>
+            <h2>TRUSTED LOGISTIC <br>SERVICE PROVIDER</h2>
+            <p> <img src="Images/bx-check (1).svg" alt="">Customized, Reliable Transportation Solutions</p>
+            <p> <img src="Images/bx-check (1).svg" alt="">Dedicated Customer Service Support</p>
+            <p> <img src="Images/bx-check (1).svg" alt="">Secure, On-Time, Budget-Friendly Shipping</p>
+            <p> <img src="Images/bx-check (1).svg" alt="">Building Lasting Client Relationships</p>
+
+            <div class="text">
+                <p>At (YOUR TRUCKING COMPANY), we are dedicated to providing customized, reliable transportation solutions that meet the unique needs of our clients. Contact us today to learn more about how we can help you with your logistics needs.</p>
+                <button>Get Quote</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- services -->
+    <section class="whatWeDo" id="Services">
+        <div class="Top-text">
+            <h3>Our Services</h3>
+            <h2>Services We Provide</h2>
+        </div>
+        <div class="columns">
+            <div class="card_1">
+                <h3>Expedited Shipping Services</h3>
+                <p>At (YOUR TRUCKING COMPANY), we are able to provide expedited shipping services that are tailored to meet the specific needs of your business. Whether you have urgent or time-sensitive shipments, we can ensure that your goods arrive at their destination on time, every time</p>
+            </div>
+            <div class="card_1">
+                <h3>Less-Than-Truckload (LTL) Services</h3>
+                <p>For smaller shipments, our less-than-truckload (LTL) services provide a cost-effective and efficient transportation solution. We can consolidate shipments from multiple businesses and deliver them to their respective destinations, saving you time and money on shipping costs.</p>
+            </div>
+            <div class="card_1">
+                <h3>White-Glove Delivery</h3>
+                <p>This service involves providing extra care and attention to delicate or high-value shipments, including specialized handling, protective packaging, and in-home delivery and setup.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- signup -->
+     <section class="SignUp" id="Form">
+        <div class="left-col">
+            <h3>Get a free quote for your shipping needs today.</h3>
+            <h2>Streamline your logistics <br>with (YOUR TRUCKING <br>COMPANY)</h2>
+            <p> <img src="Images/bx-check (1).svg" alt="">Customized, Reliable Transportation Solutions</p>
+            <p> <img src="Images/bx-check (1).svg" alt="">Dedicated Customer Service Support</p>
+            <p> <img src="Images/bx-check (1).svg" alt="">Secure, On-Time, Budget-Friendly Shipping</p>
+            <p> <img src="Images/bx-check (1).svg" alt="">Building Lasting Client Relationships</p>
+
+            <div class="text">
+                <p>At (YOUR TRUCKING COMPANY), we are dedicated to providing customized, reliable transportation solutions that meet the unique needs of our clients. Contact us today to learn more about how we can help you with your logistics needs.</p>
+            </div>
+        </div>
+        <div class="right-col">
+            <h2>Make Your Quote Here</h2>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+     </section>
+
+
+     <!-- Quote script -->
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyuqMxZvqVzygiN9EJV-zCHmNLd1jyC9PVk5HF-EA41v7H29PmTWB9FKcxFR6e2b-U5/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
