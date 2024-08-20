@@ -50,7 +50,7 @@ html{
 }
 .logo{
     width: 100px;
-    height: 30px;
+    min-height: 30px;
     margin: 20px;
     margin-left: 100px;
 }
@@ -102,7 +102,7 @@ button{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 150px;
+    margin-left: 80px;
     font-size: 16px;
     color: #ffffff;
 }
@@ -464,16 +464,16 @@ button a{
   }
 
   @media only screen and (max-width: 600px) {
-        .hero1{
+        /* .hero1{
             display: flex;
         }
         .tab img{
             display: block;
-          }
+          } */
   }
 
   /* ----------------------small screen------------ */
 
-  .tab img{
+  /* .tab img{
     display: none;
-  }
+  } */
